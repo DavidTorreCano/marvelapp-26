@@ -39,8 +39,10 @@ dependencies {
     implementation(libs.material)
     implementation(libs.gson)
     implementation(libs.kotlinx.serialization.json)
-    implementation(libs.mockk)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(libs.androidx.junit)
+
+    testImplementation(libs.mockk.android)
+    testImplementation(libs.mockk.agent)
 }
